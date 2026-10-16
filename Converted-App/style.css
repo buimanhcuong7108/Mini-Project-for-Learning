@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed';
+    display: flex;
+}
+
+.container {
+    background-color: bisque;
+    margin: 50% auto;
+    padding: 20px 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.container #converted-num {
+    font-size: 6em;
+}
