@@ -9,17 +9,71 @@
 body {
     font-family: 'Roboto Condensed';
     display: flex;
+    height: 100%;
 }
 
 .container {
-    background-color: bisque;
-    margin: 50% auto;
+    color: #F8FAFC;
+    background-color: #0F172A;
+    margin: 50px auto;
     padding: 20px 50px;
     text-align: center;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .container #converted-num {
-    font-size: 6em;
+    font-size: 8em;
+    margin: 60px auto;
+    color: #F97316;
+}
+
+.container li {
+    display: block;
+    margin: 10px auto;
+    font-size: 22px;
+    color: #94A3B8;
+}
+
+.container label:hover {
+    color: #6c85ab;
+}
+
+.container input[type=number] {
+    font-size: 2em;
+    max-width: 300px;
+    max-height: 100px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 15px;
+    color: #F8FAFC;
+    border: none;
+    border-radius: 5px;
+    background-color: #1E293B;
+}
+
+.container input[type=number]:hover,
+input[type=number] {
+    outline: none;
+}
+
+.container button {
+    padding: 10px 50px;
+    font-size: 1em;
+    border: none;
+    border-radius: 7px;
+    background-color: #F97316;
+}
+
+.container button:hover {
+    background-color: #db5c01;
+    cursor: pointer;
+    color: white
+}
+
+/* Chrome, Edge, Safari */
+.container input[type="number"]::-webkit-inner-spin-button,
+.container input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
